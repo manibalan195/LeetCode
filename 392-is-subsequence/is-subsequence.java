@@ -6,7 +6,6 @@ class Solution {
             if(s.charAt(l) == t.charAt(i)) l++;
         }
         if(l >= s.length()) return true;
-
         return false;
     }
 }
